@@ -4,7 +4,8 @@ body {font-family: arial;
     font-style: normal; 
     letter-spacing: normal; 
     text-align: justify;
-    background-image: url(abstract-geometric-pattern-background_1319-242.jpg);
+    background: fixed;
+    background-color: beige;
 }
         
 h1{color:black; text-align: center;}
@@ -27,13 +28,17 @@ body.profil{
 nav {
     display:flex;
     justify-content: space-around;
-    background-color: rgb(0, 255, 85);
-    padding: 30px;
+    background-color: aqua;
+    margin-left: 20px;
+}
+nav img { width: 50px; height: 50px;
+    position: static; justify-content: left;
+
 }
 p {
     font-family: arial;
     text-transform: lowercase;
-    text-align: center;
+    text-align: justify;
 }
 .paragraf {
     font-family: Arial;
