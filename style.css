@@ -4,7 +4,7 @@ body {font-family: arial;
     font-style: normal; 
     letter-spacing: normal; 
     text-align: justify;
-    background-image: url(abstract-geometric-pattern-background_1319-242.jpg);
+    background-image: url(abstract-geometric-pattern-background_1319-242.jpg) no-repeat cover;
 }
         
 h1{color:black; text-align: center;}
@@ -14,6 +14,14 @@ p {line-height: 1.6em; color: black;
         }
 
 a {text-decoration: none;}
+
+.p1 {
+    background-color: aqua;
+    font-family: arial;
+}
+.p2 {
+    font-family: times new roman;
+}
 
 body.profil{
     font-family:time new roman;
